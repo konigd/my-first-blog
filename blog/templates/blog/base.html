@@ -1,0 +1,22 @@
+{% load staticfiles %}<!DOCTYPE html>
+<html>
+<head>
+	<title>Posts</title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar-dg"> 
+		<a href="/"><h2>Play with Django with us</h2></a>
+
+	</div>
+
+{% block content %}
+{% endblock %}
+
+	</div>
+
+</body>
+</html>

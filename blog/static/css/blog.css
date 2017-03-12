@@ -1,0 +1,11 @@
+.navbar-dg {
+	font-family:'Shadows Into Light';
+	height: 40px;
+	background-color: black;
+}
+
+.navbar-dg h2 {
+	margin: none;
+	text-align: center;
+	color: white;
+}
